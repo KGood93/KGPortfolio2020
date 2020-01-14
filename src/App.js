@@ -70,9 +70,6 @@ class App extends Component {
         <Menu open={this.state.menuOpen}>
           {menuItems}
         </Menu>
-        <div>
-          <AboutMe />
-        </div>
       </div>
       </>
     )

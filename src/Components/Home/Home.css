@@ -1,3 +1,9 @@
+.Home {
+    display: flex; 
+    flex-direction: column;
+    background-color: RGBA(248, 211, 218, 0.5);
+}
+
 .introImage {
     display: none;
     padding-top: 55px;

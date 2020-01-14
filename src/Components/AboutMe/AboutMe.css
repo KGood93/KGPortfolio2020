@@ -1,6 +1,7 @@
 .AboutMe {
     display: flex; 
     flex-direction: column;
+    background-color: RGBA(248, 211, 218, 0.5);
 }
 
 .bioGreeting {

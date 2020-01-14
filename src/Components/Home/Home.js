@@ -10,7 +10,7 @@ import TechLogos from '../../TechLogos/TechLogos'
 class Home extends Component {
     render() {
         return (
-            <Content className="Home">
+            <div className="Home">
                 <img src={KatyBackground} alt="Kathryn to right of picture in front of Milwaukee River" className="introImage"/>
                 <img src={KatyPicSmall} alt="Kathryn wearing jeans white top and green jacket" className="headshot"/>
                 <div className="headline">
@@ -38,7 +38,7 @@ class Home extends Component {
                         <p>Check it out : <a href="https://kgood93.github.io/FiberFrenzy/">Live</a> or <a href="https://github.com/KGood93/FiberFrenzy">Repo</a></p>
                     </div>
                 </div>
-            </Content>
+            </div>
         )
     }
 }

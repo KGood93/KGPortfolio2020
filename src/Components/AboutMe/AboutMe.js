@@ -6,7 +6,8 @@ import KatyPicSmall from '../../Images/Katy/KatyPicSmall.jpg'
 class AboutMe extends Component {
     render() {
         return (
-            <Content className="AboutMe">
+            //<Content>
+                <div className="AboutMe">
                 <img src={KatyPicSmall} alt="Kathryn wearing jeans white top and green jacket" className="bioPage"/>
                 <div className="aboutBio">
                     <h3 className="bioGreeting">Hi Everyone,</h3>  
@@ -33,7 +34,8 @@ class AboutMe extends Component {
                     <h3 className="close">Thanks for Stopping By,</h3>
                     <h3 className="close">Kathryn</h3>    
                 </div>
-            </Content>
+            </div>
+            //</Content>
         )
     }
 }
