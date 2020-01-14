@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import Content from '../Content'
 import './Projects.css'
 
-//import KatyPicSmall from '../../Images/Katy/KatyPicSmall.jpg'
 import FiberFrenzyQuestion from '../../Images/FiberFrenzy/FiberFrenzyQuestion.jpg'
 import Portfolio_HomeSmall from '../../Images/FiberFrenzy/Portfolio_HomeSmall.jpg'
 import ElusiveEatsRestaurant from '../../Images/EEScreenShots/ElusiveEatsRestaurants.png'
