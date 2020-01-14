@@ -1,0 +1,69 @@
+.introImage {
+    display: none;
+    padding-top: 55px;
+}
+
+.headshot {
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 65px;
+}  
+
+.headline {
+    padding-left: 10px;
+    color: RGB(1, 33, 71);
+}
+
+.katyImage {
+    display: none;
+}    
+
+.bio {
+    display: none;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .introImage {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .headshot {
+        display: none;
+    }
+
+    .bio {
+        display: block;
+        font-size: 16px;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .projectImage {
+        margin-right: 20px;
+        margin-left: 0px;  
+    }    
+
+    .fiberFrenzy {
+        display: block;
+        width: 500px;
+    }
+
+    .projectInfo {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 300px;
+        padding-right: 15px;
+    }
+}

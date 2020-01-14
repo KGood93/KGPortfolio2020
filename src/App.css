@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: RGBA(248, 211, 218, 0.5);
+}
+
+.container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  background-color: RGB(13, 69, 116);
+  width: 100%;
+  height:60px; 
+  border-bottom:5px solid RGB(254, 151, 144);
+
+}
+
+.logo {
+  margin: auto;
+  color: RGB(248, 211, 218);
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
+
+
+.homeName {
+  text-decoration: none;   
+} 
+
+footer {
+  width: 100%; 
+  background-color: RGBA(222, 91, 109, 0.7); 
+  padding: 5px;
+  text-align: center;
+}
+
+
+
+
+/*   filter: this.state.menuOpen ? 'blur(2px)':null;
+  transition: 'filter 0.5s ease'; */

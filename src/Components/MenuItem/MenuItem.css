@@ -1,0 +1,15 @@
+.menuItem {
+    font-family: Open Sans, sans-serif;
+    size: 1.2rem;
+    padding: 1rem 0;
+    margin: 0 5%;
+    cursor: pointer;
+    color: RGB(13, 69, 116);
+}
+
+.line {
+    width: 90%;
+    height: 1px;
+    background: RGB(13, 69, 116);
+    margin: 0 auto;
+}

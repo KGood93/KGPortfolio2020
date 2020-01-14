@@ -1,0 +1,11 @@
+.projectTech {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    justify-content: center;
+}
+
+.TechLogo {
+    display: block;
+    width: 30px;   
+} 

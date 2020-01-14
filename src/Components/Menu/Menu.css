@@ -1,0 +1,17 @@
+.menuContainer {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    background-color: RGB(248, 211, 218);
+    opacity: 0.95;
+    color: RGB(1, 33, 71);
+    transition: height 0.3s ease;
+    z-index: 2;
+}
+
+.menuList {
+    padding-top: 3rem;
+}
