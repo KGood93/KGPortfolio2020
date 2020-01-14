@@ -4,3 +4,30 @@
     background-color: RGBA(248, 211, 218, 0.5);
     font-family: 'Raleway', sans-serif;
 }
+
+.projImage {
+    margin: 15px;
+    margin-top: 0px;
+    width: 450px;
+    align-items: center;
+}
+
+p, h3 {
+    margin-left: 15px;
+}
+
+a:link {
+    color: RGB(13, 69, 116);
+}
+
+a:visited {
+    color: RGB(250, 83, 90);
+}
+
+a:hover {
+    color: RGB(254, 151, 144);
+}
+
+a:active {
+    color: RGB(154, 224, 213);
+}
