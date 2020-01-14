@@ -25,7 +25,8 @@
 
 .aboutBio {
     display: block;
-    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -62,6 +63,7 @@
     .bioPage {
         margin-left: 15px; 
         margin-top: 15px;
+        width: 350px;
     } 
 
     .bioGreeting {
