@@ -28,10 +28,25 @@
   font-size: 30px;
 }
 
-
 .homeName {
   text-decoration: none;   
-} 
+}
+
+a:link {
+  color: RGB(13, 69, 116);
+}
+
+a:visited {
+  color: RGB(250, 83, 90);
+}
+
+a:hover {
+  color: RGB(254, 151, 144);
+}
+
+a:active {
+  color: RGB(154, 224, 213);
+}
 
 footer {
   width: 100%; 

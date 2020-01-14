@@ -1,31 +1,29 @@
 .Projects {
     display: flex; 
     flex-direction: column;
-    background-color: RGBA(248, 211, 218, 0.5);
+    background-color: rgb(252,232,236);
     font-family: 'Raleway', sans-serif;
 }
 
+.projTitle {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 .projImage {
-    margin: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
     margin-top: 0px;
-    width: 450px;
-    align-items: center;
+    width: 90%;
 }
 
-
-
-a:link {
-    color: RGB(13, 69, 116);
+.projInfo {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-a:visited {
-    color: RGB(250, 83, 90);
-}
-
-a:hover {
-    color: RGB(254, 151, 144);
-}
-
-a:active {
-    color: RGB(154, 224, 213);
+.projLinks {
+    text-align: center;
 }
