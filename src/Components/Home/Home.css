@@ -1,7 +1,7 @@
 .Home {
     display: flex; 
     flex-direction: column;
-    background-color: RGBA(248, 211, 218, 0.5);
+    background-color: rgb(252,232,236);
 }
 
 .introImage {
@@ -17,8 +17,7 @@
 }  
 
 .headline {
-    padding-left: 10px;
-    color: RGB(1, 33, 71);
+    text-align: center;
 }
 
 .katyImage {
@@ -27,9 +26,26 @@
 
 .bio {
     display: none;
-    font-size: 14px;
-    padding-left: 10px;
-    padding-right: 10px;
+}
+
+.sectionHead {
+    margin-left: 15px;
+}
+
+.fiberFrenzy {
+    display: block;
+    width: 425px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectInfo {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.gitLinks {
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -46,6 +62,8 @@
     .bio {
         display: block;
         font-size: 16px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
     .projects {
@@ -53,16 +71,12 @@
         flex-direction: row;
         justify-content: center;
         margin-bottom: 20px;
-    }
-
-    .projectImage {
-        margin-right: 20px;
-        margin-left: 0px;  
-    }    
+    }   
 
     .fiberFrenzy {
         display: block;
         width: 500px;
+        margin-left: 15px;
     }
 
     .projectInfo {
@@ -70,6 +84,5 @@
         flex-direction: column;
         align-content: center;
         width: 300px;
-        padding-right: 15px;
     }
 }

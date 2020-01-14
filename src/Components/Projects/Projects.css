@@ -12,9 +12,7 @@
     align-items: center;
 }
 
-p, h3 {
-    margin-left: 15px;
-}
+
 
 a:link {
     color: RGB(13, 69, 116);
