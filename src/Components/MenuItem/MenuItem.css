@@ -1,11 +1,19 @@
-.menuItem {
-    font-family: 'Raleway', sans-serif;
-    size: 20px;
-    padding: 5px;
+.menuDiv {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.menuItem {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    padding: 5px;
     cursor: pointer;
+    text-decoration: none;
     color: RGB(13, 69, 116);
+}
+
+.menuItem:hover {
+    font-size: 30px;
 }
 
 .line {

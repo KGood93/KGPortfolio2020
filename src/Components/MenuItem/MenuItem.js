@@ -15,9 +15,8 @@ class MenuItem extends Component{
     }
     
     render(){
-      //console.log("MenuItem: " + this.props.children)
       return(
-        <div>
+        <div className="menuDiv">
           <Link 
             className='menuItem'
             onMouseEnter={()=>{this.handleHover();}} 
