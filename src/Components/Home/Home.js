@@ -34,7 +34,7 @@ class Home extends Component {
                         <h3>The Covert Knitter presents: Fiber Frenzy</h3>
                         <p>A quiz app for the fiber/knitting enthusiast.</p>
                         <TechLogos />
-                        <p className="gitLinks">Check it out : <a href="https://kgood93.github.io/FiberFrenzy/" className="pageLink" target="_blank">Live</a> or <a href="https://github.com/KGood93/FiberFrenzy" className="pageLink" target="_blank">Repo</a></p>
+                        <p className="gitLinks">Check it out : <a href="https://kgood93.github.io/FiberFrenzy/" className="pageLink" target="_blank" rel="noopener noreferrer">Live</a> or <a href="https://github.com/KGood93/FiberFrenzy" className="pageLink" target="_blank" rel="noopener noreferrer">Repo</a></p>
                     </div>
                 </div>
             </div>

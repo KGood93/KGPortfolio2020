@@ -19,7 +19,7 @@ class Projects extends Component {
                 <h3 className="projTitle">The Covert Knitter presents: Fiber Frenzy</h3>
                 <div className="projectsPage">
                     <div className="projectScreenShots">
-                        <a href="https://kgood93.github.io/FiberFrenzy/" target="_blank"><img src={Portfolio_HomeSmall} alt="Start page of Fiber Frenzy Quiz" className="projImage"/></a>
+                        <a href="https://kgood93.github.io/FiberFrenzy/" target="_blank" rel="noopener noreferrer"><img src={Portfolio_HomeSmall} alt="Start page of Fiber Frenzy Quiz" className="projImage"/></a>
                         <br/>
                         <img src={FiberFrenzyQuestion} alt="Example of question in Fiber Frenzy" className="projImage"/>
                     </div>
@@ -34,13 +34,13 @@ class Projects extends Component {
                             <img src={javascript} alt="fill in text" className="TechLogo" />
                             <img src={Jquery} alt="fill in text" className="TechLogo" />
                         </div>
-                        <p className="projLinks">Check it out : <a href="https://kgood93.github.io/FiberFrenzy/" className="pageLink" target="_blank">Live</a> or <a href="https://github.com/KGood93/FiberFrenzy" className="pageLink" target="_blank">Repo</a></p>
+                        <p className="projLinks">Check it out : <a href="https://kgood93.github.io/FiberFrenzy/" className="pageLink" target="_blank" rel="noopener noreferrer">Live</a> or <a href="https://github.com/KGood93/FiberFrenzy" className="pageLink" target="_blank" rel="noopener noreferrer">Repo</a></p>
                     </div>
                 </div>
                 <h3 className="projTitle">Elusive Eats</h3>
                 <div className="projectsPage">
                     <div className="projectScreenShots">
-                        <a href="https://kgood93.github.io/ElusiveEats/" target="_blank"><img src={ElusiveEatsStart} alt="Start page of ElusiveEats" className="projImage"/></a>
+                        <a href="https://kgood93.github.io/ElusiveEats/" target="_blank" rel="noopener noreferrer"><img src={ElusiveEatsStart} alt="Start page of ElusiveEats" className="projImage"/></a>
                         <br/>
                         <img src={ElusiveEatsZip} alt="Zipcode Search Page of Elusive Eats" className="projImage"/>
                         <br/>
@@ -57,7 +57,7 @@ class Projects extends Component {
                             <img src={javascript} alt="fill in text" className="TechLogo" />
                             <img src={Jquery} alt="fill in text" className="TechLogo" />
                         </div>
-                        <p className="projLinks">Check it out : <a href="https://kgood93.github.io/ElusiveEats/" className="pageLink" target="_blank">Live</a> or <a href="https://github.com/KGood93/ElusiveEats" className="pageLink" target="_blank">Repo</a></p>
+                        <p className="projLinks">Check it out : <a href="https://kgood93.github.io/ElusiveEats/" className="pageLink" target="_blank" rel="noopener noreferrer">Live</a> or <a href="https://github.com/KGood93/ElusiveEats" className="pageLink" target="_blank" rel="noopener noreferrer">Repo</a></p>
                     </div>
                 </div>
             </div>

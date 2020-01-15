@@ -28,8 +28,8 @@ class AboutMe extends Component {
                     I also enjoy blogging, bingeing podcasts, tennis and snowboarding.
                     </p>
                     <h4 className="centerLinks">Links of Interest</h4>
-                    <p className="center"><a href="https://github.com/KGood93" className="pageLink" target="_blank">Github</a></p>  
-                    <p className="center"><a href="https://www.linkedin.com/in/kathryn-goodreau-6a18b4114" className="pageLink" target="_blank">LinkedIn</a></p>
+                    <p className="center"><a href="https://github.com/KGood93" className="pageLink" target="_blank" rel="noopener noreferrer">Github</a></p>  
+                    <p className="center"><a href="https://www.linkedin.com/in/kathryn-goodreau-6a18b4114" className="pageLink" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
                     <h3 className="close">Thanks for Stopping By,</h3>
                     <h3 className="close">Kathryn</h3>    
                 </div>

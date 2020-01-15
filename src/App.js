@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Route, Link} from 'react-router-dom'
+import {Route} from 'react-router-dom'
 import './App.css'
 import Menu from './Components/Menu/Menu'
 import MenuButton from './Components/MenuButton/MenuButton'
@@ -62,6 +62,7 @@ class App extends Component {
       {this.renderNavRoutes()}
     
       <div className="App">
+        <title>Kathryn A. Goodreau</title>
         <div className="container">
           <MenuButton open={this.state.menuOpen} onClick={()=>this.handleMenuClick()} color='RGB(248, 211, 218)'/>
           <div className="logo">Kathryn A. Goodreau</div>
