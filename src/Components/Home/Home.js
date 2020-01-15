@@ -29,12 +29,12 @@ class Home extends Component {
                 </div>
                 <h2 className="sectionHead">My Projects</h2>
                 <div className="projects">
-                    <a href="projects.html" className="projectImage"><img src={FiberFrenzy} alt="Start page of Fiber Frenzy Quiz" className="fiberFrenzy"/></a>
+                    <img src={FiberFrenzy} alt="Start page of Fiber Frenzy Quiz" className="fiberFrenzy"/>
                     <div className="projectInfo">
                         <h3>The Covert Knitter presents: Fiber Frenzy</h3>
                         <p>A quiz app for the fiber/knitting enthusiast.</p>
                         <TechLogos />
-                        <p className="gitLinks">Check it out : <a href="https://kgood93.github.io/FiberFrenzy/">Live</a> or <a href="https://github.com/KGood93/FiberFrenzy">Repo</a></p>
+                        <p className="gitLinks">Check it out : <a href="https://kgood93.github.io/FiberFrenzy/" className="pageLink" target="_blank">Live</a> or <a href="https://github.com/KGood93/FiberFrenzy" className="pageLink" target="_blank">Repo</a></p>
                     </div>
                 </div>
             </div>

@@ -33,19 +33,19 @@
     text-align: center;
 }
 
-.pageLink a:link {
+.pageLink:link {
     color: RGB(13, 69, 116);
 }
   
-.pageLink a:visited {
+.pageLink:visited {
     color: RGB(250, 83, 90);
 }
   
-.pageLink a:hover {
+.pageLink:hover {
     color: RGB(254, 151, 144);
 }
   
-.pageLink a:active {
+.pageLink:active {
     color: RGB(154, 224, 213);
 }
 

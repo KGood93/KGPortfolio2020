@@ -7,6 +7,7 @@ import MenuItem from './Components/MenuItem/MenuItem'
 import Home from './Components/Home/Home'
 import AboutMe from './Components/AboutMe/AboutMe'
 import Projects from './Components/Projects/Projects'
+import Footer from './Components/Footer/Footer'
 
 class App extends Component {
   constructor(props){
@@ -42,8 +43,8 @@ class App extends Component {
   }
   
   render(){
-    const menu = ['Home', 'About Me','Projects', 'Github', 'LinkedIn']
-    const menuId = ['/home', '/aboutMe', '/projects', '/projects', '/projects']
+    const menu = ['Home', 'About Me','Projects']
+    const menuId = ['/home', '/aboutMe', '/projects']
     const menuItems = menu.map((val,index)=>{
       return (
         <MenuItem 
@@ -68,6 +69,7 @@ class App extends Component {
         <Menu open={this.state.menuOpen}>
           {menuItems}
         </Menu>
+        <Footer />
       </div>
       </>
     )
