@@ -8,7 +8,9 @@ class AboutMe extends Component {
         return (
             //<Content>
                 <div className="AboutMe">
+                <div className="aboutImage">
                 <img src={KatyPicSmall} alt="Kathryn wearing jeans white top and green jacket" className="bioPage"/>
+                </div>
                 <div className="aboutBio">
                     <h3 className="bioGreeting">Hi Everyone,</h3>  
                     <p className="bioGraph">My name is Kathryn and I am a Full Stack Developer. I have a 

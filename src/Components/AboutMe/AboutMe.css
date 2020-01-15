@@ -4,6 +4,10 @@
     background-color: rgb(252,232,236);
 }
 
+.aboutImage {
+    margin: auto;
+}
+
 .bioGreeting {
     font-family: 'pacifico', cursive;
     margin-top: 0px; 
@@ -60,10 +64,13 @@
         margin-top: 65px;
     }
 
+    .aboutImage {
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+
     .bioPage {
-        margin-left: 15px; 
-        margin-top: 15px;
-        width: 350px;
+        margin-top: 25px;
     } 
 
     .bioGreeting {

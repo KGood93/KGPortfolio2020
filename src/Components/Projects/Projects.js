@@ -17,9 +17,9 @@ class Projects extends Component {
         return (
             <div className="Projects">
                 <h2 className="sectionHead">My Projects</h2>
+                <h3 className="projTitle">The Covert Knitter presents: Fiber Frenzy</h3>
                 <div className="projectsPage">
                     <div className="projectScreenShots">
-                        <h3 className="projTitle">The Covert Knitter presents: Fiber Frenzy</h3>
                         <a href="https://github.com/KGood93/KGPortfolio"><img src={Portfolio_HomeSmall} alt="Start page of Fiber Frenzy Quiz" class="projImage"/></a>
                         <br/>
                         <img src={FiberFrenzyQuestion} alt="Example of question in Fiber Frenzy" className="projImage"/>
@@ -35,9 +35,9 @@ class Projects extends Component {
                         <p className="projLinks">Check it out : <a href="https://kgood93.github.io/FiberFrenzy/">Live</a> or <a href="https://github.com/KGood93/FiberFrenzy">Repo</a></p>
                     </div>
                 </div>
+                <h3 className="projTitle">Elusive Eats</h3>
                 <div className="projectsPage">
                     <div className="projectScreenShots">
-                        <h3 className="projTitle">Elusive Eats</h3>
                         <a href="https://kgood93.github.io/ElusiveEats/"><img src={ElusiveEatsStart} alt="Start page of ElusiveEats" class="projImage"/></a>
                         <br/>
                         <img src={ElusiveEatsZip} alt="Zipcode Search Page of Elusive Eats" className="projImage"/>

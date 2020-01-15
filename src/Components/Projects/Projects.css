@@ -3,6 +3,11 @@
     flex-direction: column;
     background-color: rgb(252,232,236);
     font-family: 'Raleway', sans-serif;
+    margin-top: 65px;
+}
+
+.sectionHead {
+    margin-bottom: 0px;
 }
 
 .projTitle {
@@ -26,4 +31,41 @@
 
 .projLinks {
     text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .projImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        width: 425px;
+    }
+
+    .projectsPage {
+        display: flex;
+        flex-direction: row;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .projInfo {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
+    .projectsPage {
+        margin: auto;
+    }
+
+    .projTitle {
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 }
