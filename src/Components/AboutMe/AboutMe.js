@@ -21,7 +21,7 @@ class AboutMe extends Component {
                     </p>
                     <p className="bioGraph">My bachelor's degree is in biology with a focus on cell and molecular 
                     biology. I currently work in a research lab in the Milwaukee area. In the research I have 
-                    assisted with I have always loved pulling in mathematical and computer models; Due to this 
+                    assisted with I have always loved pulling in mathematical and computer models; due to this 
                     interest I was able to incorporate computer science courses into my schedule. 
                     </p>    
                     <p className="bioGraph">In my spare time I love knitting and all things fiber related. 

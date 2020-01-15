@@ -19,7 +19,7 @@ class Projects extends Component {
                 <h3 className="projTitle">The Covert Knitter presents: Fiber Frenzy</h3>
                 <div className="projectsPage">
                     <div className="projectScreenShots">
-                        <a href="https://github.com/KGood93/KGPortfolio" target="_blank"><img src={Portfolio_HomeSmall} alt="Start page of Fiber Frenzy Quiz" className="projImage"/></a>
+                        <a href="https://kgood93.github.io/FiberFrenzy/" target="_blank"><img src={Portfolio_HomeSmall} alt="Start page of Fiber Frenzy Quiz" className="projImage"/></a>
                         <br/>
                         <img src={FiberFrenzyQuestion} alt="Example of question in Fiber Frenzy" className="projImage"/>
                     </div>
@@ -47,7 +47,7 @@ class Projects extends Component {
                         <img src={ElusiveEatsRestaurant} alt="Map and restaurant list" className="projImage"/>
                     </div>
                     <div className="projInfo">
-                        <p>An app to answer the question of what to <br /> eat when it eludes you.</p>
+                        <p>An app to answer the question of what to eat when it eludes you.</p>
                         <p>This app uses several google APIs to help find a list of restaurants close 
                             to your current location. It then displays the list with a map and reviews
                              to help you decide where to eat. </p>

@@ -21,8 +21,8 @@ class Home extends Component {
                         <p>I have a passion for learning and I'm in the Engineering Flex program 
                             through Thinkful. I fell in love with coding in high school and recently
                             decided to pursue a career in technology. I have  predominantly worked 
-                            with HTML and CSS and took several semesters of computer science courses 
-                            during my undergraduate career focusing on Java and Python. I am currently 
+                            with HTML and CSS. During my undergraduate career I also took several 
+                            semesters of computer science courses focusing on Java and Python. I am currently 
                             learning backend development with a focus on SQL and Node.js.
                         </p>
                     </div>
