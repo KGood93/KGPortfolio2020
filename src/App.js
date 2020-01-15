@@ -1,8 +1,7 @@
 import React, {Component} from 'react'
-import {Route} from 'react-router-dom'
+import {Route, Link} from 'react-router-dom'
 import './App.css'
 import Menu from './Components/Menu/Menu'
-//import Footer from './Components/Footer/Footer'
 import MenuButton from './Components/MenuButton/MenuButton'
 import MenuItem from './Components/MenuItem/MenuItem'
 import Home from './Components/Home/Home'
@@ -46,7 +45,6 @@ class App extends Component {
     const menu = ['Home', 'About Me','Projects', 'Github', 'LinkedIn']
     const menuId = ['/home', '/aboutMe', '/projects', '/projects', '/projects']
     const menuItems = menu.map((val,index)=>{
-      console.log(val)
       return (
         <MenuItem 
           key={index}

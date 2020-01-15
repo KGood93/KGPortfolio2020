@@ -57,6 +57,22 @@
     margin-bottom: 0px;
 }
 
+.pageLink:link {
+    color: RGB(13, 69, 116);
+}
+  
+.pageLink:visited {
+    color: RGB(250, 83, 90);
+}
+  
+.pageLink:hover {
+    color: RGB(254, 151, 144);
+}
+  
+.pageLink:active {
+    color: RGB(154, 224, 213);
+}
+
 @media screen and (min-width: 768px) {
     .AboutMe {
         display: flex; 

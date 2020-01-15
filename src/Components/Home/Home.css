@@ -50,6 +50,22 @@
     text-align: center;
 }
 
+.pageLink a:link {
+    color: RGB(13, 69, 116);
+}
+  
+.pageLink a:visited {
+    color: RGB(250, 83, 90);
+}
+  
+.pageLink a:hover {
+    color: RGB(254, 151, 144);
+}
+  
+.pageLink a:active {
+    color: RGB(154, 224, 213);
+}
+
 @media screen and (min-width: 768px) {
     .introImage {
         display: block;

@@ -15,7 +15,7 @@ class MenuItem extends Component{
     }
     
     render(){
-      console.log("MenuItem: " + this.props.children)
+      //console.log("MenuItem: " + this.props.children)
       return(
         <div>
           <Link 

@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import Content from '../Content'
 import './Projects.css'
 
 import FiberFrenzyQuestion from '../../Images/FiberFrenzy/FiberFrenzyQuestion.jpg'
@@ -20,12 +19,15 @@ class Projects extends Component {
                 <h3 className="projTitle">The Covert Knitter presents: Fiber Frenzy</h3>
                 <div className="projectsPage">
                     <div className="projectScreenShots">
-                        <a href="https://github.com/KGood93/KGPortfolio"><img src={Portfolio_HomeSmall} alt="Start page of Fiber Frenzy Quiz" class="projImage"/></a>
+                        <a href="https://github.com/KGood93/KGPortfolio"><img src={Portfolio_HomeSmall} alt="Start page of Fiber Frenzy Quiz" className="projImage"/></a>
                         <br/>
                         <img src={FiberFrenzyQuestion} alt="Example of question in Fiber Frenzy" className="projImage"/>
                     </div>
                     <div className="projInfo">
                         <p>A quiz app for the fiber/knitting enthusiast</p>
+                        <p>Test your knowledge of knitting and all things fiber related with this 
+                            fun quiz! This app will keep track of progress in the quiz on the 
+                            “Clover Counter”. Each correct answer will earn yarn for your “stash”.</p>
                         <div className="projectTech">
                             <img src={html5Pink} alt="fill in text" className="TechLogo" />
                             <img src={CSS3Pink} alt="fill in text" className="TechLogo" />
@@ -38,7 +40,7 @@ class Projects extends Component {
                 <h3 className="projTitle">Elusive Eats</h3>
                 <div className="projectsPage">
                     <div className="projectScreenShots">
-                        <a href="https://kgood93.github.io/ElusiveEats/"><img src={ElusiveEatsStart} alt="Start page of ElusiveEats" class="projImage"/></a>
+                        <a href="https://kgood93.github.io/ElusiveEats/"><img src={ElusiveEatsStart} alt="Start page of ElusiveEats" className="projImage"/></a>
                         <br/>
                         <img src={ElusiveEatsZip} alt="Zipcode Search Page of Elusive Eats" className="projImage"/>
                         <br/>
@@ -46,6 +48,9 @@ class Projects extends Component {
                     </div>
                     <div className="projInfo">
                         <p>An app to answer the question of what to <br /> eat when it eludes you.</p>
+                        <p>This app uses several google APIs to help find a list of restaurants close 
+                            to your current location. It then displays the list with a map and reviews
+                             to help you decide where to eat. </p>
                         <div className="projectTech">
                             <img src={html5Pink} alt="fill in text" className="TechLogo" />
                             <img src={CSS3Pink} alt="fill in text" className="TechLogo" />
