@@ -1,0 +1,90 @@
+.StudentWork {
+    display: flex; 
+    flex-direction: column;
+    background-color: rgb(252,232,236);
+    font-family: 'Raleway', sans-serif;
+    margin-top: 65px;
+}
+
+.sectionHead {
+    margin-bottom: 0px;
+}
+
+.projTitle {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.projImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 90%;
+}
+
+.projInfo {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.projLinks {
+    text-align: center;
+}
+
+.pageLink:link {
+    color: RGB(13, 69, 116);
+}
+  
+.pageLink:visited {
+    color: RGB(250, 83, 90);
+}
+  
+.pageLink:hover {
+    color: RGB(254, 151, 144);
+}
+  
+.pageLink:active {
+    color: RGB(154, 224, 213);
+}
+
+@media screen and (min-width: 768px) {
+    .projImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        width: 425px;
+    }
+
+    .projectsPage {
+        display: flex;
+        flex-direction: row;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .projInfo {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
+    .projectsPage {
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .projTitle {
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
