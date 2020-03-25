@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import KatyBackground from '../../Images/Katy/KatyBackground.jpg'
 import KatyPicSmall from '../../Images/Katy/KatyPicSmall.jpg'
 import FiberFrenzy from '../../Images/FiberFrenzy/Portfolio_HomeSmall.jpg'
+import Journal from '../../Images/Sparkle/Journal.jpg'
 import './Home.css'
 import TechLogos from '../../TechLogos/TechLogos'
 
@@ -29,12 +30,12 @@ class Home extends Component {
                 </div>
                 <h2 className="sectionHead">My Projects</h2>
                 <div className="projects">
-                    <img src={FiberFrenzy} alt="Start page of Fiber Frenzy Quiz" className="fiberFrenzy"/>
+                    <img src={Journal} alt="Journal Page from Sparkle App" className="fiberFrenzy"/>
                     <div className="projectInfo">
-                        <h3>The Covert Knitter presents: Fiber Frenzy</h3>
-                        <p>A quiz app for the fiber/knitting enthusiast.</p>
+                        <h3>Sparkle</h3>
+                        <p>Sparkle is a motivational journaling app to help inspire you to shine.</p>
                         <TechLogos />
-                        <p className="gitLinks">Check it out : <a href="https://kgood93.github.io/FiberFrenzy/" className="pageLink" target="_blank" rel="noopener noreferrer">Live</a> or <a href="https://github.com/KGood93/FiberFrenzy" className="pageLink" target="_blank" rel="noopener noreferrer">Repo</a></p>
+                        <p className="gitLinks">Check it out : <a href="https://sparkle-app.now.sh/" className="pageLink" target="_blank" rel="noopener noreferrer">Live</a> or <a href="https://github.com/KGood93/sparkle-app" className="pageLink" target="_blank" rel="noopener noreferrer">Repo</a></p>
                     </div>
                 </div>
             </div>
