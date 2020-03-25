@@ -53,8 +53,8 @@ class Projects extends Component {
                             <img src={node} alt="Node js Logo" className="TechLogo" />
                             <img src={postgres} alt="Postgres Logo" className="TechLogo" />
                         </div>
-                        <p className="projLinks">Check it out : <a href="https://circle-stats-app.goodreaukath.now.sh/" className="pageLink" target="_blank" rel="noopener noreferrer">Live</a>, 
-                            <a href="https://github.com/KGood93/circle-stats-app" className="pageLink" target="_blank" rel="noopener noreferrer">App Repo</a> or 
+                        <p className="projLinks">Check it out : <a href="https://circle-stats-app.goodreaukath.now.sh/" className="pageLink" target="_blank" rel="noopener noreferrer">Live</a>,  
+                            <a href="https://github.com/KGood93/circle-stats-app" className="pageLink" target="_blank" rel="noopener noreferrer">App Repo</a> or  
                             <a href="https://github.com/KGood93/circle-stats-api" className="pageLink" target="_blank" rel="noopener noreferrer">API Repo</a></p>
                     </div>
                 </div>
@@ -81,9 +81,9 @@ class Projects extends Component {
                             <img src={node} alt="Node js Logo" className="TechLogo" />
                             <img src={postgres} alt="Postgres Logo" className="TechLogo" />
                         </div>
-                        <p className="projLinks">Check it out : <a href="https://sparkle-app.now.sh/" className="pageLink" target="_blank" rel="noopener noreferrer">Live</a> ,
-                            <a href="https://github.com/KGood93/sparkle-app" className="pageLink" target="_blank" rel="noopener noreferrer">App Repo</a> or 
-                            <a href="https://github.com/KGood93/sparkle-api" className="pageLink" target="_blank" rel="noopener noreferrer">API Repo</a></p>
+                        <p className="projLinks">Check it out : <a href="https://sparkle-app.now.sh/" className="pageLink" target="_blank" rel="noopener noreferrer">Live</a>, 
+                            <a href="https://github.com/KGood93/sparkle-app" className="pageLink" target="_blank" rel="noopener noreferrer"> App Repo</a> or  
+                            <a href="https://github.com/KGood93/sparkle-api" className="pageLink" target="_blank" rel="noopener noreferrer"> API Repo</a></p>
                     </div>
                 </div>
                 <h3 className="projTitle">Elusive Eats</h3>

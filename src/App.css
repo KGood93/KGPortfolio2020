@@ -38,9 +38,3 @@ footer {
   padding: 5px;
   text-align: center;
 }
-
-
-
-
-/*   filter: this.state.menuOpen ? 'blur(2px)':null;
-  transition: 'filter 0.5s ease'; */
