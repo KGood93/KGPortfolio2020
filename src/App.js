@@ -8,7 +8,6 @@ import Home from './Components/Home/Home'
 import AboutMe from './Components/AboutMe/AboutMe'
 import Projects from './Components/Projects/Projects'
 import Footer from './Components/Footer/Footer'
-import StudentWork from './Components/StudentWork/StudentWork'
 
 class App extends Component {
   constructor(props){
@@ -39,14 +38,13 @@ class App extends Component {
         ))}
         <Route path='/aboutMe' component={AboutMe} />
         <Route path='/projects' component={Projects} />
-        <Route path='/studentWork' component={StudentWork} />
       </>
     );
   }
   
   render(){
-    const menu = ['Home', 'About Me', 'Projects', 'Student Work']
-    const menuId = ['/home', '/aboutMe', '/projects', '/studentWork']
+    const menu = ['Home', 'About Me', 'Projects']
+    const menuId = ['/home', '/aboutMe', '/projects']
     const menuItems = menu.map((val,index)=>{
       return (
         <MenuItem 
