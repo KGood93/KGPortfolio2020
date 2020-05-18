@@ -1,5 +1,10 @@
 import React, {Component} from 'react'
 import './Projects.css'
+//import Slider from '../PhotoSlider/Slider/Slider'
+//import ImageGallery from 'react-image-gallery'
+
+import {Carousel} from 'react-responsive-carousel'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import FiberFrenzyQuestion from '../../Images/FiberFrenzy/FiberFrenzyQuestion.jpg'
 import Portfolio_HomeSmall from '../../Images/FiberFrenzy/Portfolio_HomeSmall.jpg'
@@ -22,6 +27,7 @@ import react from '../../Images/Tech/React.png'
 import postgres from '../../Images/Tech/Postgres.png'
 import node from '../../Images/Tech/node.png'
 
+
 class Projects extends Component {
     render() {
         return (
@@ -30,15 +36,14 @@ class Projects extends Component {
                 <h3 className="projTitle">Circle Time Stats</h3>
                 <div className="projectsPage">
                     <div className="projectScreenShots">
-                        <a href="https://circle-stats-app.goodreaukath.now.sh/" target="_blank" rel="noopener noreferrer"><img src={MeetingSelection} alt="Meetup Selection Page from Circle Time Stats" className="projImage"/></a>
-                        <br/>
-                        <img src={LaunchPrev} alt="Launch Page of Circle Time Stats" className="projImage"/>
-                        <br/>
-                        <img src={Count1} alt="Top of Count Page for Circle Time Stats" className="projImage"/>
-                        <br/>
-                        <img src={Count2} alt="Bottom of Count Page for Circle Time Stats" className="projImage"/>
-                        <br/>
-                        <img src={StatsPage} alt="Stats Page for Circle Time Stats" className="projImage"/>
+                        <Carousel showStatus={false}>
+                            <div>
+                                <img src={MeetingSelection} alt=" "/>
+                            </div>
+                            <div>
+                                <img src={LaunchPrev} alt=" "/>
+                            </div>
+                        </Carousel>
                     </div>
                     <div className="projInfo">
                         <p>Circle Time Stats is an easy way to keep track of the attendance for meetup events.</p>
@@ -61,11 +66,17 @@ class Projects extends Component {
                 <h3 className="projTitle">Sparkle</h3>
                 <div className="projectsPage">
                     <div className="projectScreenShots">
-                        <a href="https://sparkle-app.now.sh/" target="_blank" rel="noopener noreferrer"><img src={Journal} alt="Journal page of Sparkle" className="projImage"/></a>
-                        <br/>
-                        <img src={AddEntry} alt="Add Entry Page of Sparkle" className="projImage"/>
-                        <br/>
-                        <img src={ShortEntry} alt="Entry Page of Sparkle" className="projImage"/>
+                        <Carousel showStatus={false}>
+                            <div>
+                                <img src={Journal} alt="Journal page of Sparkle" className="projImage"/>
+                            </div>
+                            <div>
+                                <img src={AddEntry} alt="Add Entry Page of Sparkle" className="projImage"/>
+                            </div>
+                            <div>
+                                <img src={ShortEntry} alt="Entry Page of Sparkle" className="projImage"/>
+                            </div>
+                        </Carousel>
                     </div>
                     <div className="projInfo">
                         <p>Sparkle is a motivational journaling app to help inspire you to shine.</p>
@@ -89,11 +100,17 @@ class Projects extends Component {
                 <h3 className="projTitle">Elusive Eats</h3>
                 <div className="projectsPage">
                     <div className="projectScreenShots">
-                        <a href="https://kgood93.github.io/ElusiveEats/" target="_blank" rel="noopener noreferrer"><img src={ElusiveEatsStart} alt="Start page of ElusiveEats" className="projImage"/></a>
-                        <br/>
-                        <img src={ElusiveEatsZip} alt="Zipcode Search Page of Elusive Eats" className="projImage"/>
-                        <br/>
-                        <img src={ElusiveEatsRestaurant} alt="Map and restaurant list" className="projImage"/>
+                        <Carousel showStatus={false}>
+                            <div>
+                                <img src={ElusiveEatsStart} alt="Start page of ElusiveEats" className="projImage"/>
+                            </div>
+                            <div>
+                                <img src={ElusiveEatsZip} alt="Zipcode Search Page of Elusive Eats" className="projImage"/>
+                            </div>
+                            <div>
+                                <img src={ElusiveEatsRestaurant} alt="Map and restaurant list" className="projImage"/>
+                            </div>
+                        </Carousel>
                     </div>
                     <div className="projInfo">
                         <p>An app to answer the question of what to eat when it eludes you.</p>
@@ -112,9 +129,14 @@ class Projects extends Component {
                 <h3 className="projTitle">The Covert Knitter presents: Fiber Frenzy</h3>
                 <div className="projectsPage">
                     <div className="projectScreenShots">
-                        <a href="https://kgood93.github.io/FiberFrenzy/" target="_blank" rel="noopener noreferrer"><img src={Portfolio_HomeSmall} alt="Start page of Fiber Frenzy Quiz" className="projImage"/></a>
-                        <br/>
-                        <img src={FiberFrenzyQuestion} alt="Example of question in Fiber Frenzy" className="projImage"/>
+                        <Carousel showStatus={false}>
+                            <div>
+                                <img src={Portfolio_HomeSmall} alt="Start page of Fiber Frenzy Quiz" className="projImage"/>
+                            </div>
+                            <div>
+                                <img src={FiberFrenzyQuestion} alt="Example of question in Fiber Frenzy" className="projImage"/>
+                            </div>
+                        </Carousel>
                     </div>
                     <div className="projInfo">
                         <p>A quiz app for the fiber/knitting enthusiast</p>

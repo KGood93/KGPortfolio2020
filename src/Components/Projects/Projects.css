@@ -74,6 +74,10 @@
         margin-top: 0px;
     }
 
+    .thumb.selected {
+        border-color: RGB(13, 69, 116);
+    }
+
 }
 
 @media screen and (min-width: 1025px) {

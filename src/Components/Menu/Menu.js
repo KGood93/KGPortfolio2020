@@ -8,7 +8,8 @@ class Menu extends Component {
           open: this.props.open? this.props.open:false,
         }
     }
-        
+     
+    //Update due to rename
     componentWillReceiveProps(nextProps){
         if(nextProps.open !== this.state.open){
           this.setState({open:nextProps.open});

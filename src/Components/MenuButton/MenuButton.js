@@ -9,6 +9,7 @@ class MenuButton extends Component {
       }
     }
   
+    //update due to rename
     componentWillReceiveProps(nextProps){
       if(nextProps.open !== this.state.open){
         this.setState({open:nextProps.open});
