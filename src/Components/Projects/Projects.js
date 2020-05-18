@@ -38,16 +38,25 @@ class Projects extends Component {
                     <div className="projectScreenShots">
                         <Carousel showStatus={false}>
                             <div>
-                                <img src={MeetingSelection} alt=" "/>
+                                <img src={MeetingSelection} alt="Meetup Selection Page from Circle Time Stats" className="projImage"/>
                             </div>
                             <div>
-                                <img src={LaunchPrev} alt=" "/>
+                                <img src={LaunchPrev} alt="Launch Page of Circle Time Stats" className="projImage"/>
+                            </div>
+                            <div>
+                                <img src={Count1} alt="Top of Count Page for Circle Time Stats" className="projImage"/>
+                            </div>
+                            <div>
+                                <img src={Count2} alt="Bottom of Count Page for Circle Time Stats" className="projImage"/>
+                            </div>
+                            <div>
+                                <img src={StatsPage} alt="Stats Page for Circle Time Stats" className="projImage"/>
                             </div>
                         </Carousel>
                     </div>
                     <div className="projInfo">
                         <p>Circle Time Stats is an easy way to keep track of the attendance for meetup events.</p>
-                        <p>Developed for a meetup I volunteer. A simple and easy way to count attendees as they
+                        <p>Inspired by meetup groups I volunteer with. A simple and easy way to count attendees as they
                             arrive and elegantly display the resulting data. This is the second full-stack project 
                             developed as part of the Thinkful Engineering Flex Program.</p>
                         <div className="projectTech">
